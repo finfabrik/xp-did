@@ -1,0 +1,30 @@
+{
+  "name": "xp-did",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --out-dir dist",
+    "clean": "rm -r ./dist",
+    "main": "node ./dist/main.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.23.0",
+    "babel-core": "^6.23.1",
+    "babel-loader": "8.0.4",
+    "babel-plugin-syntax-async-functions": "6.13.0",
+    "babel-plugin-transform-regenerator": "6.26.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2015": "6.24.1",
+    "babel-preset-stage-0": "6.24.1"
+  },
+  "dependencies": {
+    "bip32": "^1.0.2",
+    "bip39": "^2.5.0",
+    "bs58": "^4.0.1",
+    "ed25519": "0.0.4",
+    "pbkdf2": "^3.0.17"
+  }
+}
